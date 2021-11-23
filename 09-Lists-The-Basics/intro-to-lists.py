@@ -5,7 +5,7 @@ cukier = ["ciasto", "napoje", "alkohol"]
 print(len(cukier)) #ile składowych ma w sobie powyższa lista
 
 # Create an empty list and assign it to the variable "empty".
-empty = []
+empty = [] #pusta lista
 
 
 # Create a list with a single Boolean — True — and assign it to the variable "active".
