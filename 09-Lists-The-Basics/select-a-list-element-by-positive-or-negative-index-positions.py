@@ -14,6 +14,7 @@ print(web_browsers[2]) #która zmienna
 
 def firn_and_last(elements):
     return elements[0] + elements[-1]
+    
 
 # Define a product_of_even_indices function that accepts a list of numbers. 
 # The list will always have 6 total elements. 
