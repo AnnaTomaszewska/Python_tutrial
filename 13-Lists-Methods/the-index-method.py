@@ -25,3 +25,18 @@ print(pizzas.index("Pepperoni", 3))
 # encrypt_message("")    => ""
 
 #DO ROZWIĄZANIA!!!
+
+#modulo 17 % 12 --> 5
+    # 17 / 12 = 1
+    # 1 * 12 = 12
+    # 17 - 12 = 5
+
+def encrypt_message(message):
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    encrypted = ""
+    for letter in message:
+        encrypted_letter_index_position = (alphabet.index(letter) + 2) % 26 
+        encrypted += encrypted_letter_index_position
+
+    return encrypted
+
